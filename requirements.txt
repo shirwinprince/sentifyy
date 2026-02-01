@@ -21,3 +21,4 @@ transformers
 # Utilities
 pypdf
 python-dotenv
+
