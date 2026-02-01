@@ -1,30 +1,32 @@
 # --- Frontend & UI ---
 streamlit
 
-# --- Data Visualization & Processing ---
+# --- Data & Viz ---
 pandas
 matplotlib
 plotly
 wordcloud
 nltk
 
-# --- AI & LLM Core (LangChain) ---
+# --- AI Core ---
 langchain
+langchain-community
 langchain-core
-langchain-community>=0.2.0
 langchain-groq
 langchain-google-genai
 langchain-huggingface
 
-# --- Embeddings & Vector Store ---
+# --- Search & Models ---
+# The specific version ensures the 'ddgs' module exists
+duckduckgo-search>=6.1.0
 sentence-transformers
 chromadb
-
-# --- Models & APIs ---
 google-genai
-duckduckgo-search>=6.0.0
-torch --index-url https://download.pytorch.org/whl/cpu
 transformers
+
+# --- Torch (Standard Install) ---
+# We removed the --index-url flag to fix the installer crash
+torch
 
 # --- Utilities ---
 pypdf
