@@ -1,42 +1,31 @@
-# Core Web App
+# --- Frontend & UI ---
 streamlit
 
-# Data & Viz
+# --- Data Visualization & Processing ---
 pandas
 matplotlib
 plotly
 wordcloud
 nltk
-langchain-huggingface
-# AI & LLM (The heavy hitters)
+
+# --- AI & LLM Core (LangChain) ---
 langchain
-langchain-google-genai
-langchain-community
+langchain-core
+langchain-community>=0.2.0
 langchain-groq
-google-genai
-chromadb
+langchain-google-genai
+langchain-huggingface
+
+# --- Embeddings & Vector Store ---
 sentence-transformers
-torch
+chromadb
+
+# --- Models & APIs ---
+google-genai
+duckduckgo-search>=6.0.0
+torch --index-url https://download.pytorch.org/whl/cpu
 transformers
 
-# Utilities
+# --- Utilities ---
 pypdf
 python-dotenv
-
-# Search Tool
-duckduckgo-search
-
-# Core LangChain & AI
-langchain
-langchain-community
-langchain-groq
-langchain-huggingface
-sentence-transformers
-
-# Data & UI
-streamlit
-nltk
-pandas
-chromadb
-python-dotenv
-
