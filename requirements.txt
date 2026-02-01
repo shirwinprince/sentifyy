@@ -23,5 +23,19 @@ transformers
 pypdf
 python-dotenv
 
+# Search Tool
+duckduckgo-search
 
+# Core LangChain & AI
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+sentence-transformers
 
+# Data & UI
+streamlit
+nltk
+pandas
+chromadb
+python-dotenv
