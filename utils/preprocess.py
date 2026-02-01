@@ -1,7 +1,12 @@
 import re
 import nltk
 from nltk.corpus import stopwords
+import nltk
 
+# This ensures the data is downloaded on the Streamlit server
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 # --- OPTIMIZED DOWNLOAD ---
 # This checks if they exist first, so it doesn't re-download constantly
 try:
