@@ -39,3 +39,4 @@ nltk
 pandas
 chromadb
 python-dotenv
+
