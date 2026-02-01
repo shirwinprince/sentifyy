@@ -7,6 +7,7 @@ matplotlib
 plotly
 wordcloud
 nltk
+langchain-huggingface
 # AI & LLM (The heavy hitters)
 langchain
 langchain-google-genai
@@ -21,5 +22,6 @@ transformers
 # Utilities
 pypdf
 python-dotenv
+
 
 
